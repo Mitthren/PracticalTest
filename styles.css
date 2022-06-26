@@ -1,0 +1,191 @@
+* {
+	margin: 0px;
+	padding: 0px;
+  
+}
+
+/*----------------------------------------------*/
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vw;
+  background-color: #2F5E70;
+ }
+ .nav-links a {
+  
+  color: #f8d92b;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .logo {
+  font-size: 3vw;
+  font-weight: bold;
+  color: #f8d92b; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .menu {
+  display: flex;
+  gap: 1em;
+  font-size: 1.5vw;
+ }
+ .menu li:hover {
+  background-color: #eee4ab;
+  border-radius: 5px;
+  transition: 0.3s ease;
+ }
+ .menu li {
+  padding: 5px 14px;
+  list-style: none;
+ }
+/*----------------------------------------------*/
+#image1 {
+    padding: 4vw;
+    
+    position:relative;
+    display: flex;
+    align-items: center;
+
+    background-image:url("./images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+  
+  }
+
+  #image1 img{
+    width: 35%;
+    float: left;
+    border-radius: 4vw;
+
+}
+
+#intro {
+ 
+  float: left;
+  width: 40%;
+  padding-left: 10vw;
+}
+  
+#intro h1{
+ 
+  font-weight: 700;
+  line-height: 1.2;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 5vw;
+}
+#intro h2{
+ 
+  padding-top: 30px;
+  font-weight: 200;
+  line-height: 1.2;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2vw;
+}
+
+
+
+.images{
+  padding-top: 10px;
+}
+.images h1{
+  padding: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.topics {
+  position:relative;
+    display: flex;
+    background-color: #a9ddf1;
+    align-items: center;
+}
+
+.topics img{
+  padding: 5vw;
+  width: 30%;
+  border: 1px;
+}
+
+
+
+ .text{
+  border: 0.2vw solid;
+  padding: 2vw;
+  box-shadow: 0.8vw 0.8vw #888888;
+  height: fit-content;
+  margin-left: 3vw;
+  
+  background-color: aqua;
+  width: 70%;
+}
+
+.text h1{
+  font-weight: 700;
+  line-height: 1.2;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 3vw;
+  padding-bottom: 1vw;
+}
+
+
+.text h2{
+  padding-top: 0.1vw;
+  font-weight: 200;
+  line-height: 1.2;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3vw;
+}
+.skills{
+  position:relative;
+    display: flex;
+    background-color: #a9ddf1;
+    align-items: center;
+    padding-right: 4vw;
+}
+.table1{
+  margin-left: 3vw;
+  margin-right: 3vw;
+  width: 100%;
+  
+}
+.table1 img{
+
+  width: 100%;
+  border: 1px;
+ 
+  
+}
+
+.table1 th{
+  padding: 1vw;
+}
+
+.slides img{
+  width: 65%;
+  padding: 5vw;
+  float: right;
+
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
